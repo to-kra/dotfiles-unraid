@@ -15,6 +15,20 @@ installpkg git-2.9.0-x86_64-1.txz
 ssh-keyscan github.com >> ~/.ssh/known_hosts
 mkdir /boot/github/
 cd /boot/github/
-git clone git@github.com:to-kra/dotfiles-unraid.git
+git clone git@github.com:to-kra/dotfiles-unraid.github
+
+# install plugins
+plugin install https://raw.githubusercontent.com/Squidly271/fix.common.problems/master/plugins/fix.common.problems.plg
+plugin install https://raw.githubusercontent.com/dmacias72/unRAID-plugins/master/plugins/NerdPack.plg
+plugin install https://raw.githubusercontent.com/gfjardim/unRAID-plugins/master/plugins/preclear.disk.plg
+
+plugin install https://raw.github.com/bergware/dynamix/master/unRAIDv6/dynamix.cache.dirs.plg
+plugin install https://raw.github.com/bergware/dynamix/master/unRAIDv6/dynamix.system.info.plg
+plugin install https://raw.github.com/bergware/dynamix/master/unRAIDv6/dynamix.system.stats.plg
+plugin install https://raw.github.com/bergware/dynamix/master/unRAIDv6/dynamix.system.temp.plg
+plugin install https://raw.github.com/bergware/dynamix/master/unRAIDv6/dynamix.system.buttons.plg
+plugin install https://raw.github.com/bergware/dynamix/master/unRAIDv6/dynamix.file.integrity.plg
+
+plugin install https://raw.githubusercontent.com/overbyrn/unraid-v6-plugins/master/ssh.plg
 
 # git aware prompts
