@@ -13,6 +13,10 @@ alias cd....='cd ../..'
 alias cls='clear'
 alias clr='clear'
 
+#rsync cp, mv
+alias cprs='rsync -aP'
+alias mvrs='rsync -aP --remove-source-files'
+
 # if this is an xterm set the title to user@host:dir
 #case "$TERM" in
 #xterm*|rxvt*)

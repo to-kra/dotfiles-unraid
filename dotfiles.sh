@@ -20,6 +20,9 @@ git clone git@github.com:to-kra/dotfiles-unraid.github
 # install plugins
 plugin install https://raw.githubusercontent.com/Squidly271/fix.common.problems/master/plugins/fix.common.problems.plg
 plugin install https://raw.githubusercontent.com/dmacias72/unRAID-plugins/master/plugins/NerdPack.plg
+
+plugin install https://raw.githubusercontent.com/gfjardim/unRAID-plugins/master/plugins/advanced.buttons.plg
+plugin install https://raw.githubusercontent.com/gfjardim/unRAID-plugins/master/plugins/docker.buttons.plg
 plugin install https://raw.githubusercontent.com/gfjardim/unRAID-plugins/master/plugins/preclear.disk.plg
 
 plugin install https://raw.github.com/bergware/dynamix/master/unRAIDv6/dynamix.cache.dirs.plg
@@ -31,4 +34,7 @@ plugin install https://raw.github.com/bergware/dynamix/master/unRAIDv6/dynamix.f
 
 plugin install https://raw.githubusercontent.com/overbyrn/unraid-v6-plugins/master/ssh.plg
 
-# git aware prompts
+plugin install https://raw.githubusercontent.com/jbrodriguez/unraid/master/plugins/unbalance.plg
+
+# dockers
+# https://github.com/jbrodriguez/docker-containers/tree/templates
